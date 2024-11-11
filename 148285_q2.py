@@ -45,8 +45,7 @@ class Instructor:
         for student in self.students:
             student.display_grades()
             print("-" * 20)
-
-# Interactive code for instructors
+            
 def main():
     # Create an instructor
     instructor = Instructor("Prof. Smith", "Python Programming 101")
