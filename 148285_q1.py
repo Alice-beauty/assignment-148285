@@ -73,5 +73,4 @@ def main():
     # List borrowed books again
     member.list_borrowed_books()
 
-# Run the sample code
 main()
