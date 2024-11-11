@@ -44,7 +44,6 @@ class LibraryMember:
         else:
             print(f"{self.name} has not borrowed any books.")
 
-# Interactive code to allow a member to borrow and return books
 def main():
     # Create some books
     book1 = Book("1984", "George Orwell")
