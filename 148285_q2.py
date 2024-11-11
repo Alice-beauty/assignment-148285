@@ -65,5 +65,4 @@ def main():
     # Display all students' grades
     instructor.display_all_students_grades()
 
-# Run the interactive code
 main()
