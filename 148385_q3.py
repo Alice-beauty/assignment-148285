@@ -34,12 +34,11 @@ class Department:
         for employee in self.employees:
             employee.display_details()
 
-# Interactive code for adding employees and displaying total salary
 def main():
     # Create a department
     department = Department("Human Resources")
 
-    # Adding employees interactively
+    # Adding employees
     while True:
         name = input("Enter employee name (or 'done' to finish): ")
         if name.lower() == 'done':
@@ -51,11 +50,10 @@ def main():
         employee = Employee(name, employee_id, salary)
         department.add_employee(employee)
 
-    # Display all employees in the department
+    # Display employees
     department.display_all_employees()
 
-    # Calculate and display total salary expenditure
+    # Calculate and display total salary
     department.calculate_total_salary()
 
-# Run the interactive code
 main()
