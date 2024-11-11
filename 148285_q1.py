@@ -52,13 +52,12 @@ class LibraryMember:
         else:
             print(f"{self.name} has no borrowed books.")
 
-# Sample interactive code
 def main():
     # Create sample books
-    book1 = Book("1984", "George Orwell")
-    book2 = Book("To Kill a Mockingbird", "Harper Lee")
+    book1 = Book("The Alchemist", "Paulo Coelho")
+    book2 = Book("The 7 Habits", "Stephen R. Covey.")
 
-    # Create a library member
+    # Create library member
     member = LibraryMember("Alice", "M123")
 
     # Borrow books
